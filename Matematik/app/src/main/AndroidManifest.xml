@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.matematik">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/tmatt"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/tmatyu"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".bizeYazinn"></activity>
+        <activity android:name=".tesekkur" />
+        <activity android:name=".bolmeBolunebilme" />
+        <activity android:name=".usluSayilar" />
+        <activity android:name=".mutlakDeger" />
+        <activity android:name=".kokluSayilar" />
+        <activity android:name=".rasyonelSayiler" />
+        <activity android:name=".basitEsitsizlik" />
+        <activity android:name=".ayarlar" />
+        <activity android:name=".sayiler" />
+        <activity android:name=".temelKavramlar" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".anaSayfa" />
+        <activity android:name=".animasyon">
+            <meta-data
+                android:name="com.google.android.gms.ads.APPLICATION_ID"
+                android:value="ca-app-pub-6537190103014639~5855537118" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+</manifest>

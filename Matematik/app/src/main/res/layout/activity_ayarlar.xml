@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.matematik.ayarlar">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@mipmap/slagon" />
+
+            <TextView
+                android:id="@+id/textView300"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Zamanını boşa harcama, KotuzApp olarak sana bu zorlu yolda başarılar diliyoruz..."
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView301"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/bizeYazin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bize yazın    >"
+                android:textColor="@android:color/holo_purple"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Diğer uygulamalarımız:"
+                android:textColor="@android:color/holo_green_light" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/cografya"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Coğrafya Uygulamasını için tıklayın   >"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telegram ve Whatsapp ders çalışma grubumuz İnstagram üzerinden duyrulacaktır." />
+
+            <TextView
+                android:id="@+id/insta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="instagram'da bizi takip edin"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/textView223"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/teşekkür"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Teşekkür  >"
+                android:textColor="@android:color/holo_orange_dark" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

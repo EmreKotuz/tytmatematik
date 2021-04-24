@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#E00303</color>
+    <color name="sade">#EEDC8123</color>
+    <color name="beyaz">#EEFFFFFF</color>
+    <color name="s">#2B48FF</color>
+
+
+    <color name="deneme">#FFEEDC81</color>
+</resources>
